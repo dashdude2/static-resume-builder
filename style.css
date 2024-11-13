@@ -1,0 +1,61 @@
+
+
+
+body{
+   background-color: lightgray;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 20%;
+   padding: 5%;
+
+}
+h1{
+    text-align: center;
+    color: dimgray;
+}
+form{
+    max-width: 700px;
+    margin: auto;
+    background-color: #f0f3f8;
+    border-radius: 7;
+    box-shadow: 0 4px 8px   rgb(0, 0, 0.5);
+    padding: 30px;
+}
+fieldset {
+    border-radius: 9px;
+    border: 2px solid #107cbbc5;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #d7e0e6c5;
+}
+legend{
+    font: weight bold ;
+    color: dimgray;
+}
+label{
+    display: block;
+    margin-top: 5px;
+    color: #000000c5;
+}
+input,textarea {
+    width: calc(100% - 13px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #096397c5;
+    border-radius: 4px; 
+    box-sizing: content-box;
+    
+}
+button{
+
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #fffffff3;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+   font-family: 'Times New Roman', Times, serif;
+
+    
+}
